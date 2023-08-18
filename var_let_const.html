@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+<h3>var,let and const</h3>
+<script type="text/javascript">
+	 var a=10; //var is a global scope variable
+	 document.write(a);
+
+	let b=20; //we cannot redeclared the let,but we can reintialised it.Let is a block level variable
+	document.write(b);
+	 //let b=40;//wrong way
+	//document.write(b);
+	b=30;
+	//document.write(b);
+	b=50;
+	//document.write(b);
+	b=10;
+	//document.write(b);
+   
+   {
+  // let c=100;
+   //document.write(c);//correct way to declare the variables inside the block
+   }
+  //document.write(c);//wrong way to declare the variables outside of the block
+
+  //const pi=3.14;//we cannot assign the values repeatedly to the constant.It is also a block scope variable or local scope variable. 
+ // document.write(pi);
+  // pi=4.3;
+  //document.write(pi);
+
+  let w="devi";
+  //document.write((w)+"<br>");
+  const data="lowki";
+  //document.write(data);
+  var q="krithi"
+  //document.write(q)
+</script>
+</body>
+</html>

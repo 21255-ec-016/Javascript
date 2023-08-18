@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+</head>
+<body>
+<h1>dynamic keys</h1>
+<script>
+ var trainees=[{
+      'name':'Devi',
+      'rollno':16,
+      'college':'ADTP',
+      'branch':'ECE',
+       'email':'devibobbili@gmail.com',
+    },
+    {
+      'name':'Lowki',
+      'rollno':14,
+      'college':'ACET',
+      'branch':'CSE',
+       'email':'lowkibobbili@gmail.com',
+    },
+    {
+      'name':'Ashritha',
+      'rollno':55,
+      'college':'ACET',
+      'branch':'CCN',
+       'email':'ashi@gmail.com',
+    },
+     {
+      'name':'Adhvik',
+      'rollno':10,
+      'college':'ACES',
+      'branch':'EEE',
+       'email':'adhimakireddy@gmail.com',
+    },
+     {
+      'name':'Lakshman',
+      'rollno':36,
+      'college':'ADTP',
+      'branch':'CSE',
+       'email':'lucky@gmail.com',
+    }, ]
+ // console.log(trainees[i]);
+ // console.log(trainees.length);
+  for (var i=0;i<trainees.length;i++){
+      for (var key in trainees[i]){
+        document.write(trainees[i][key])
+      }
+      document.write("<br>");
+    }
+</script>
+</body>
+</html>
+<!-- for (var i=0;i<trainees.length;i++){
+      for (var key in trainees[i]){
+        document.write(trainees[i][key])
+      }
+    } -->
